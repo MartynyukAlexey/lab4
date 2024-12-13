@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 14px;
+    border-radius: 12px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+form > *+*   {
+    margin-top: 15px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form div * {
+    width: 100%;
+}
+
+form div > * + * {
+    margin-left: 16px;
+}
+
+form input {
+    height: 18px;
+}
